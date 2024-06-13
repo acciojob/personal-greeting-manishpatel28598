@@ -20,7 +20,7 @@ const App = () => {
       value={name} 
       onChange={handleChange} />
 
-     <p>{name && <p>Hello {name}!</p>}</p> 
+     <p>Hello {name}!</p>
     </div>
   );
 };
